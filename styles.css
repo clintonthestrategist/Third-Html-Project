@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.headercontainer p {
+    font-size: 29px;
+}
+.headercontainer button {
+    color: white;
+    background-color: black;
+    border: 1px solid purple;
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+}
+.completetopsection {
+    margin-top: 30px;
+}
+.topsectioncontainer {
+    display: flex;
+    gap: 40px;
+    padding-left: 30px;
+}
+.topsectiontextcontainer {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+}
+.topsectiontextcontainer h1 {
+    font-size: 60px;
+    color: rgb(134, 76, 76);
+}
+.topsectiontextcontainer p {
+    font-size: 18px;
+    color: rgb(177, 170, 170);
+}
+.topsectiontextcontainer button {
+    color: white;
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    border: 1px solid purple;
+    border-radius: 30px;
+}
+.topsectionphotocontainer {
+    flex: 1 1 40%;
+    height: 600px;
+    padding-right: 30px;
+}
+.topsectionphotocontainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid purple;
+}
+.contentbelowcontainer {
+    margin-top: auto;
+}
+.contentbelowcontainer input {
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+}
+.contentbelowcontainer input::placeholder {
+    color: lightgray;
+}
+.reviewitemcontainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviewimagecontainer {
+    display: flex;
+    position: relative;
+}
+.reviewimagecontainer img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;            
+    position: relative;
+    border: 1px solid purple;
+}
+.reviewimagecontainer img:nth-child(1) {
+    z-index: 1;
+}
+.reviewimagecontainer img:nth-child(2) {
+    z-index: 2;
+    margin-left: -10px;
+}
+.reviewimagecontainer img:nth-child(3) {
+    z-index: 3;
+    margin-left: -10px;
+}
+.reviewitemcontainer span {
+    font-size: 14px;
+}
+.sectionbelowcontainer {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    gap: 10px;
+    height: 600px;
+    margin-bottom: 60px;
+}
+.sectionbelowcontainer2 {
+    display: flex;
+    flex: 1 1 60%;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding-left: 20px;
+    gap: 20px;
+    background-image:
+        linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+.sectionbelowwithtextandbut {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    padding-top: 20px;
+}
+.sectionbelowwithtextandbut button {
+    color: white;
+    background-color: black;
+    border: 1px solid purple;
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.sectionbelowwithtextonly {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sectionbelowwithtextandbut i, .sectionbelowwithtextonly i {
+    font-size: 40px;
+    color: purple;
+    padding-bottom: 10px;
+}
+.sectionbelowimagecontainer {
+    flex: 1 1 40%;
+    height: 600px;  
+}
+.sectionbelowcontainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sectionbelowbutton {
+    margin-top: auto;
+}
+.sectionbelowwithtextonly {
+    flex: 1 1 38%;
+}
+.sidetext1, .sidetext2 {
+    border: 1px solid purple;
+    height: 300px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-image:
+        linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+.sidetextonly {
+    padding-top: 60px;
+    width: 350px;
+}
+.sidetextonly h3 {
+    padding-bottom: 10px;
+}
+.endlogo {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+hr {
+    border: 1px solid rgb(168, 157, 157);
+}
+.closefooter {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.termsandpri {
+    display: flex;
+    gap: 20px;
+}
